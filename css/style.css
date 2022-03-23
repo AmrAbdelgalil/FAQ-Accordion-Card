@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 700;
+  color: hsl(238, 29%, 16%);
+}
+
+hr {
+  border-top: 1px solid hsl(240, 5%, 91%);
+  background-color: hsl(240, 5%, 91%);
+}
+
+.container {
+  width: 60%;
+  margin: 20vh auto;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  z-index: 22;
+  top: 35%;
+  left: -10%;
+}
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  margin: 20vh auto;
+  display: flex;
+  border-radius: 20px;
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 27px 83px -49px rgba(29, 30, 53, 0.9);
+  -webkit-box-shadow: 1px 27px 83px -49px rgba(29, 30, 53, 0.9);
+  -moz-box-shadow: 1px 27px 83px -49px rgba(29, 30, 53, 0.9);
+}
+
+.background {
+  width: 50%;
+}
+
+.bg-pattern {
+  position: absolute;
+  width: 90%;
+  top: -40%;
+  left: -50%;
+}
+
+.bg-image {
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  left: -8%;
+  top: 12%;
+}
+
+.content {
+  margin: 0 10px 10px 80px;
+  width: 50%;
+}
+
+.body-content {
+  font-size: 12px;
+}
+
+.icon-arrow {
+  width: 3%;
+}
+
+.question {
+  color: hsl(237, 12%, 33%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer {
+  color: hsl(240, 6%, 50%);
+  margin-top: 5px;
+  display: none;
+}
+
+.active-answer {
+  display: block;
+}
+
+.active p {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+
+.active .icon-arrow {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 376px) {
+  main.container {
+    margin: auto;
+    width: 85%;
+    background-image: url(/images/illustration-woman-online-mobile.svg);
+  }
+  .card {
+    margin: 17vh auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    overflow: visible;
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  .box {
+    display: none;
+  }
+  .bg-image {
+    content: url(../images/illustration-woman-online-mobile.svg);
+    width: 70%;
+    top: -19%;
+    left: 15%;
+  }
+  .bg-pattern {
+    display: none;
+  }
+
+  .content,
+  .body-content {
+    width: 100%;
+    margin: 0;
+  }
+  .content h1 {
+    text-align: center;
+    margin-top: 6rem;
+  }
+}
