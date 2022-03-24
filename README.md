@@ -2,6 +2,9 @@
 
 Building a responsive FAQ Accordion Card using HTML, CSS, Media query and JavaScript.
 
+### Desktop size: 1440px
+### Mobile siza: 375px
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -12,6 +15,6 @@ Building a responsive FAQ Accordion Card using HTML, CSS, Media query and JavaSc
 
 ### Screenshot
 
-![](/design/screencapture-127-0-0-1-5500-index-html-2022-03-23-05_28_48.png)
-![](/design/screencapture-127-0-0-1-5500-index-html-2022-03-23-05_29_41.png)
-![](/design/screencapture-127-0-0-1-5500-index-html-2022-03-23-05_31_26.png)
+![Desktop_Design](/design/Desktop_Design.png)
+![Active_Desktop_Design](/design/Active_Desktop_Design.png)
+![Mobile_Design](/design/Mobile_Design.png)
