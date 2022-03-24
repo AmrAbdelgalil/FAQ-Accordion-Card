@@ -15,8 +15,9 @@ h1 {
 }
 
 hr {
-  border-top: 1px solid hsl(240, 5%, 91%);
+  border-style: none;
   background-color: hsl(240, 5%, 91%);
+  height: 1px;
 }
 
 .container {
@@ -83,6 +84,10 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.question:hover {
+  cursor: pointer;
 }
 
 .answer {
